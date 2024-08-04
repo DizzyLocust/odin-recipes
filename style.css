@@ -3,6 +3,7 @@ body{
     border: 2px solid whitesmoke;
     padding: 10px;
     color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 a:link{
@@ -19,7 +20,19 @@ a:hover {
 
 .home {
     text-align: center;
+    padding-top: 20px
 }
+
+.home .nav-left {
+    float: left;
+    padding-left: 10px;
+}
+
+.home .nav-right {
+    float: right;
+    padding-right: 10px;
+}
+
 
 .title {
     text-align: center;
@@ -37,6 +50,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 
 }
 
