@@ -23,12 +23,12 @@ a:hover {
     padding-top: 20px
 }
 
-.home .nav-left {
+.nav-left {
     float: left;
     padding-left: 10px;
 }
 
-.home .nav-right {
+.nav-right {
     float: right;
     padding-right: 10px;
 }
