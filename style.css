@@ -1,17 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: white;
-    border: 2px solid black;
+    background-color: black;
+    border: 
     padding: 10px;
-    color: black;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a:link{
-    color:black;
+    color:white;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
@@ -39,10 +43,48 @@ a:hover {
     padding: 30px;
 }
 
+.top {
+    display: flex;
+    width: 300px;
+    margin: auto;
+}
+
+.intro-para {
+    display: flex;
+    border: solid white;
+    margin: 2em;
+}
+
+.box {
+
+    border: 1px solid white;
+    margin: 1em;
+}
+
+.intro {
+
+    margin: 1em;
+}
+
+
+
 .recipe-list{
   display: table;
   margin: 0 auto;
  
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.list-items .item {
+    display: list-item;
+    margin: 5px; 
 }
 
 .image {
